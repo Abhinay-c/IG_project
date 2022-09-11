@@ -1,0 +1,82 @@
+*{
+    text-align: center;
+}
+.navi{
+    background-color: #3AB4F2;
+    color: black;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 40px;
+    text-align: right;
+}
+.navi a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    margin: 30px;
+}
+.navi :hover{
+    color: #F2DF3A;
+}
+
+.navi img{
+    float : left;
+    height : 60px;
+    padding : 0;
+    position: relative;
+    bottom: 18px;
+}
+
+.odd{
+    background-color: #f2eded !important;
+    display: inline-block;
+}
+.odd h2{
+    color: #0078AA;
+    border-radius: 50px;
+    display: inline-block;
+    margin: 100px;
+    font-family: Times, "Times New Roman", Georgia, serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+.odd img{
+    display: inline-block;
+    margin-left: 0%;
+}
+.even{
+    background-color: #3AB4F2;
+    display: flex;
+    justify-content: center;
+}
+.even img{
+    height: 300px;
+    margin: 80px;
+}
+.even h2{
+    color: #f2eded;
+    border-radius: 50px;
+    font-family: Times, "Times New Roman", Georgia, serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 130px;
+}
+footer{
+    background-color: #F2DF3A;
+    text-decoration: none;
+    font-weight: bolder;
+    margin: 0px;
+    padding: 40px;
+}
+footer a{
+    color: black;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 125%;
+    margin: 50px;
+}
+footer a:hover{
+    color: #3AB4F2;
+}
+footer span{
+    font-size:150%;
+}
